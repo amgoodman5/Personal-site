@@ -1,0 +1,259 @@
+html {
+    color: #1695A3;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    color: #fafafa;
+}
+
+h3 {
+
+}
+h4 {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #1695a3;
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: -0.54rem 0px 0;
+    color: #eb7f00;
+}
+
+
+
+
+.white-text {
+    color: #fafafa !important;
+}
+
+#container {
+    background-color: #F3FFE2!important;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+  background-size: contain;
+  background: rgba(235, 129, 4, 0.2);
+
+}
+
+.side-nav a {
+    color: #0089ec;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.select-wrapper span.caret {
+    color: #ff6d00!important;
+    font-size: 20px;
+}
+
+
+/*nav*/
+
+.nav {
+    background-color: #225378 !important;
+}
+
+.footer {
+    background-color: #225378!important;
+}
+
+
+/*button*/
+
+.teal.lighten-1 {
+    background-color: #1695A3 !important;
+}
+
+a.waves-effect.waves-light.btn-large {
+    background-color: #225378;
+}
+
+
+/*icons*/
+
+i.material-icons {
+    color: #EB7F00;
+}
+
+.present {
+    color: #225378;
+    text-align: center;
+}
+
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #eb7f00;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.show {
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1695a3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: #ee6e73;
+}
+
+div#form {
+    border-radius: 5px;
+    background: rgb(30, 107, 136);
+    padding: 5%;
+    min-width: 100%;
+    box-shadow: 1px 1px 2px 1px #225378;
+}
+input.select-dropdown {
+    color: #eb7f00;
+    font-size: 1.5rem!important;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    color: #ff6d00;
+    min-height: 5em;
+    max-height: 5em;
+    overflow: hidden;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+section.form-area {
+    padding-bottom: 5%;
+}
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: rgba(34, 83, 120, 0.64);
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+    max-height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+ul#slide-out {
+    background-color: rgba(245, 245, 245, 0.65);
+}
+
+@media (max-width: 800px) {
+  .show {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1695a3;
+}
+    h3 {
+    font-size: 1.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+}
+h4 {
+padding-top:5%;
+background-color: #1695a3;
+font-size: 2.92rem;
+line-height: 110%;
+margin: -0.54rem 0px 0;
+}
+    .card-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+    min-width: 100%!important;
+}
+    .card .card-image img {
+        display: block;
+        border-radius: 2px 2px 0 0;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        min-width: 100%!important;
+    }
+    .card-panel {
+    transition: box-shadow .25s;
+    padding: 0px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    width: 75%;
+}
+
+
+div#form {
+background: #1e6b88;
+}
+    input.select-dropdown {
+        color: #eee;
+        font-size: 1.5em!important;
+    }
+    .title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ff6d00;
+    min-height: 3em;
+    max-height: 3em;
+}
+.col.s4.m4 {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (max-width: 600px) {
+    .parallax {
+        position: absolute;
+        top: 10%;
+        left: 90%;
+        /* right: -15px; */
+        bottom: 0%;
+        z-index: -1;
+    }
+}
