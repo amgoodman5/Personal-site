@@ -35,13 +35,19 @@ h4 {
 }
 
 .parallax-container {
-  position: relative;
-  overflow: hidden;
-  height: 85vh;
-  background-size: contain;
-  background: rgba(235, 129, 4, 0.2);
-
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+    /* background-position-y: 40px; */
+    background-size: contain;
+    background: rgba(19, 18, 18, 0.82);
+  }
+  section.portfolio {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
 }
+
 
 .side-nav a {
     color: #0089ec;
@@ -143,7 +149,7 @@ input.select-dropdown {
     position: relative;
     left: 0;
     right: 0;
-    top: 0;
+    top: 4px;
     bottom: 0;
     max-height: 300px;
     min-height: 300px;
@@ -157,7 +163,7 @@ section.form-area {
 .card {
     position: relative;
     margin: 0.5rem 0 1rem 0;
-    background-color: rgba(34, 83, 120, 0.64);
+    background-color: #ddd;;
     transition: box-shadow .25s;
     border-radius: 2px;
 }
@@ -245,6 +251,7 @@ background: #1e6b88;
     display: flex;
     justify-content: center;
 }
+
 }
 
 @media (max-width: 600px) {
